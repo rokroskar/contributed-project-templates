@@ -42,3 +42,9 @@ fi
 
 # create database, start daemon
 source aiida-activate -c -w 1
+
+# download and import archive if specified
+archive_url="{{ archive-url }}"
+if [ ! -z "$archive_url" ]; then
+    verdi import --non-interactive $archive_url
+fi

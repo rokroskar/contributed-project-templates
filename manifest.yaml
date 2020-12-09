@@ -3,4 +3,5 @@
   description: AiiDA environment for exploring AiiDA databases.
   variables:
     # description for README
-    description: AiiDA environment for exploring AiiDA databases.
+    description: Describe your project
+    archive-url: (optional) URL to AiiDA archive you would like to import
