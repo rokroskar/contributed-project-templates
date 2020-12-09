@@ -1,0 +1,6 @@
+- folder: aiida
+  name: AiiDA
+  description: AiiDA environment for exploring AiiDA databases.
+  variables:
+    # description for README
+    description: AiiDA environment for exploring AiiDA databases.
