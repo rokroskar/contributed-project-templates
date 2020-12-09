@@ -1,4 +1,4 @@
-store_path: /work/playground2/repo
+store_path: /work/{{ name }}/repo
 
 su_db_username: aiidauser
 # su_db_password:  # not yet supported

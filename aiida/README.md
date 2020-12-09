@@ -17,9 +17,9 @@ This project comes with a pre-installed AiiDA environment. In order to get start
 You should see a status similar to
 ```
 - Finishing Status:
- ✔ config dir:  /work/playground2/repo/.aiida
+ ✔ config dir:  /work/{{ name }}/repo/.aiida
  ✔ profile:     On profile basic
- ✔ repository:  /work/playground2/repo/.aiida/repository/basic
+ ✔ repository:  /work/{{ name }}/repo/.aiida/repository/basic
 /opt/conda/lib/python3.7/site-packages/tzlocal/unix.py:158: UserWarning: Can not find any timezone configuration, defaulting to UTC.
   warnings.warn('Can not find any timezone configuration, defaulting to UTC.')
  ✔ postgres:    Connected as chrisjsewell@localhost:5432
@@ -34,4 +34,3 @@ Pick one of many resources:
  * The introductory [AiiDA tutorial](https://aiida.readthedocs.io/projects/aiida-core/en/latest/intro/tutorial.html), part of the [AiiDA documentation](https://aiida.readthedocs.io).
  * A [collection of historic AiiDA tutorials](https://aiida-tutorials.readthedocs.io/en/latest/).
  * The [AiiDA web site](http://www.aiida.net)
-
