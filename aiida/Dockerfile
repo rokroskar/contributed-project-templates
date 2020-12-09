@@ -44,5 +44,3 @@ RUN if [ -n "$RENKU_VERSION" ] ; then \
     ; fi
 
 ########################################################
-
-ENV AIIDA_PATH=/work/playground2/repo

@@ -18,8 +18,8 @@ You should see a status similar to
 ```
 - Finishing Status:
  ✔ config dir:  /work/{{ name }}/repo/.aiida
- ✔ profile:     On profile basic
- ✔ repository:  /work/{{ name }}/repo/.aiida/repository/basic
+ ✔ profile:     On profile {{ name }}
+ ✔ repository:  /work/{{ name }}/repo/.aiida/repository/{{ name }}
 /opt/conda/lib/python3.7/site-packages/tzlocal/unix.py:158: UserWarning: Can not find any timezone configuration, defaulting to UTC.
   warnings.warn('Can not find any timezone configuration, defaulting to UTC.')
  ✔ postgres:    Connected as chrisjsewell@localhost:5432
