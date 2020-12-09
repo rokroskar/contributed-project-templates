@@ -4,4 +4,4 @@
   variables:
     # description for README
     description: Describe your project
-    archive-url: (optional) URL to AiiDA archive you would like to import
+    archive_url: (optional) URL to AiiDA archive you would like to import

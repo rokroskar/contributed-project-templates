@@ -3,8 +3,8 @@
 {{ description }}
 {% endif %}
 
-{% if archive-url %}
-This project imports an [AiiDA archive]({{ archive-url }}) upon starting an environment, which may take some time.
+{% if archive_url %}
+This project imports an [AiiDA archive]({{ archive_url }}) upon starting an environment, which may take some time.
 {% endif %}
 
 

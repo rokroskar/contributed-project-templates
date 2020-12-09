@@ -34,7 +34,7 @@ non_interactive: true
 EOF
 
 
-# Add AIIDA_PATH environment variable 
+# Add AIIDA_PATH environment variable
 profile_file=~/.bashrc
 if ! grep -q 'AIIDA_PATH' "${profile_file}" ; then
   echo "export AIIDA_PATH=\"/work/${CI_PROJECT}/repo\"" >> "${profile_file}"
@@ -44,7 +44,7 @@ fi
 source aiida-activate -c -w 1
 
 # download and import archive if specified
-archive_url="{{ archive-url }}"
+archive_url="{{ archive_url }}"
 if [ ! -z "$archive_url" ]; then
     verdi import --non-interactive $archive_url
 fi
