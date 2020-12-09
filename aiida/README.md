@@ -21,9 +21,9 @@ This project comes with an AiiDA environment already pre-configured for your use
 
 You should see a status similar to
 ```
- ✔ config dir:  /work/{{ name }}/repo/.aiida
- ✔ profile:     On profile {{ name }}
- ✔ repository:  /work/{{ name }}/repo/.aiida/repository/{{ name }}
+ ✔ config dir:  /work/{{ __sanitized_project_name__ }}/repo/.aiida
+ ✔ profile:     On profile {{ __sanitized_project_name__ }}
+ ✔ repository:  /work/{{ __sanitized_project_name__ }}/repo/.aiida/repository/{{ __sanitized_project_name__ }}
 /opt/conda/lib/python3.7/site-packages/tzlocal/unix.py:158: UserWarning: Can not find any timezone configuration, defaulting to UTC.
  ✔ postgres:    Connected as aiidauser@localhost:5432
  ✔ rabbitmq:    Connected as amqp://guest:guest@127.0.0.1:5672?heartbeat=600
